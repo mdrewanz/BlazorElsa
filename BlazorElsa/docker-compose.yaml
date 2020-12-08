@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  mongodb:
+    image: 'mongo'
+    container_name: 'mongo-elsa'
+    environment:
+      - MONGO_INITDB_DATABASE=mongo-elsa.db
+      - MONGO_INITDB_ROOT_USERNAME=sysadmin
+      - MONGO_INITDB_ROOT_PASSWORD=DBA_adm1n#19
+    volumes:
+      - ./mongo-volume:/dat/mongodb
+    ports:
+      - 27017-27019:27017-27019
+
+  

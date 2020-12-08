@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\mdrewanz\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\assets\js\plugins\jquery.scrollbar\scrollbar.jquery.json" Condition="Exists('$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\assets\js\plugins\jquery.scrollbar\scrollbar.jquery.json')">
+      <NuGetPackageId>Elsa.Dashboard</NuGetPackageId>
+      <NuGetPackageVersion>1.4.6.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Theme\argon-dashboard\assets\js\plugins\jquery.scrollbar\scrollbar.jquery.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\composer.json" Condition="Exists('$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\composer.json')">
+      <NuGetPackageId>Elsa.Dashboard</NuGetPackageId>
+      <NuGetPackageVersion>1.4.6.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Theme\argon-dashboard\composer.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\package-lock.json" Condition="Exists('$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\package-lock.json')">
+      <NuGetPackageId>Elsa.Dashboard</NuGetPackageId>
+      <NuGetPackageVersion>1.4.6.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Theme\argon-dashboard\package-lock.json</Link>
+    </Content>
+    <Content Include="$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\package.json" Condition="Exists('$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\contentFiles\any\netcoreapp3.1\Theme\argon-dashboard\package.json')">
+      <NuGetPackageId>Elsa.Dashboard</NuGetPackageId>
+      <NuGetPackageVersion>1.4.6.3</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Private>False</Private>
+      <Link>Theme\argon-dashboard\package.json</Link>
+    </Content>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\buildTransitive\Elsa.Dashboard.props" Condition="Exists('$(NuGetPackageRoot)elsa.dashboard\1.4.6.3\buildTransitive\Elsa.Dashboard.props')" />
+  </ImportGroup>
+</Project>
