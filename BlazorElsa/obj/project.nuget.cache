@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GIGpXqWVVvGYHee5A8WQ3cU9ktMHJkQST14P+0Tcudatow6PLDOIqh5VZBHzvv/X3AFJMqY+bDtL7R1f/Cqhtw==",
+  "dgSpecHash": "xpwpMxpdRwuOUSwX6lVh3OiP1ZLvsdJJo/XWMjqdab512ZFMCl1f8kEE8AOOTNu46Y1lwjO3Ngosa1rJ87mYQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mdrewanz\\source\\repos\\LEARN\\BlazorElsa\\BlazorElsa\\BlazorElsa.csproj",
   "expectedPackageFiles": [
@@ -182,7 +182,8 @@
     "C:\\Users\\mdrewanz\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
     "C:\\Users\\mdrewanz\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\mdrewanz\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\mdrewanz\\.nuget\\packages\\yamldotnet\\9.1.0\\yamldotnet.9.1.0.nupkg.sha512"
+    "C:\\Users\\mdrewanz\\.nuget\\packages\\yamldotnet\\9.1.0\\yamldotnet.9.1.0.nupkg.sha512",
+    "C:\\Users\\mdrewanz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

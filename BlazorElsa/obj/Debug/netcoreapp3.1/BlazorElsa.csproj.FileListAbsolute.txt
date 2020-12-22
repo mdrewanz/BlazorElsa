@@ -90,7 +90,6 @@ C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\bin\Debug\netcoreapp3
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
-C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.csprojAssemblyReference.cache
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.AssemblyInfoInputs.cache
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.AssemblyInfo.cs
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.csproj.CoreCompileInputs.cache
@@ -136,3 +135,4 @@ C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.dll
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.pdb
 C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.genruntimeconfig.cache
+C:\Users\mdrewanz\source\repos\LEARN\BlazorElsa\BlazorElsa\obj\Debug\netcoreapp3.1\BlazorElsa.csprojAssemblyReference.cache

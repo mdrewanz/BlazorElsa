@@ -2,6 +2,8 @@ using BlazorElsa.Data;
 using BlazorElsa.Handlers;
 using BlazorElsa.Models;
 using BlazorElsa.Services;
+using BlazorElsa.Workflows;
+using Elsa.Activities.Console.Extensions;
 using Elsa.Activities.Email.Extensions;
 using Elsa.Activities.Http.Extensions;
 using Elsa.Activities.Timers.Extensions;
@@ -68,7 +70,11 @@ namespace BlazorElsa
                 .AddEmailActivities(options => options.Bind(Configuration.GetSection("Elsa:Smtp")))
                 .AddHttpActivities(options => options.Bind(Configuration.GetSection("Elsa:Http")))
                 .AddTimerActivities(options => options.Bind(Configuration.GetSection("Elsa:Timers")))
-                .AddUserTaskActivities();
+                .AddConsoleActivities()
+                .AddUserTaskActivities()
+               // add workflows (coded)
+               .AddWorkflow<PaymentRequestWorkflow>();
+
 
 
             // services
